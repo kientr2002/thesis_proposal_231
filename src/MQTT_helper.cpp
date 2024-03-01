@@ -26,9 +26,11 @@ bool MyMQTT::publish(String feedName, String message) {
     Serial.print("Status: ");
     if(client.publish(topic.c_str(), message.c_str(),1)){
       Serial.println("Success!");
+      delay(5000);
       return 1;
     }
     Serial.println("Failed!");
+    delay(5000);
     return 0;
 }
 

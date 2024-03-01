@@ -9,7 +9,7 @@
 const char* mqtt_server = "io.adafruit.com";
 const int mqtt_port = 1883;
 const char* mqtt_username = "teambaton";
-const char* mqtt_password = "aio_Dgpv32vObCrbJBoasVRvhJIo0PLy";
+const char* mqtt_password = "aio_aCwF83uG9j1sPZ5fbLRJiN04yWNb";
 String mqtt_feed = "teambaton/feeds/test";
 
 
